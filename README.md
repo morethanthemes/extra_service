@@ -10,8 +10,9 @@ This module assumes that the following modules are installed and enabled on your
 - [Paragraphs](https://www.drupal.org/project/paragraphs)
 - [Image Widget Crop](https://www.drupal.org/project/image_widget_crop)
 - [Video Embed Field](https://www.drupal.org/project/video_embed_field)
-- [Extra View Modes](https://www.drupal.org/project/extra_view_modes)
-- [Extra Paragraphs](https://www.drupal.org/project/extra_paragraphs)
+- Extra View Modes
+- Extra Paragraphs
+
 
 ## Requirements
 

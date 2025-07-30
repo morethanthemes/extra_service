@@ -1,0 +1,22 @@
+name: "Extra Service"
+type: "Content Type"
+description: Adds a service content type.
+recipes:
+  - extra_paragraphs
+  - extra_view_modes
+install:
+  - entity_reference_revisions
+  - file
+  - image
+  - link
+  - menu_ui
+  - node
+  - image_widget_crop
+  - paragraphs
+  - path
+  - taxonomy
+  - text
+  - user
+  - video_embed_field
+config:
+  strict: false

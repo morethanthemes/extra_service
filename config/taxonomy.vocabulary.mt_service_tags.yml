@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {}
+name: "Service Tags"
+vid: mt_service_tags
+description: "Use this vocabulary to create and manage tags for the Service content type. These tags help categorize and group services, making them easier for users to find and filter."
+weight: 0

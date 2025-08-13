@@ -1,0 +1,72 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f215b2e1-f826-4bb6-b254-d402f44baacb
+  bundle: mt_service
+  default_langcode: en
+  depends:
+    2dd56690-b259-4925-b7a2-d3d6340ea142: file
+    37fc6902-8c41-4ebf-8737-79e151ad0383: taxonomy_term
+    4b45ac86-8be0-4867-8cc6-31d8bad47887: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Third Service'
+  created:
+    -
+      value: 1755097315
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /services/third-service
+      langcode: en
+      pathauto: 0
+  field_mt_srv_body:
+    -
+      value: '<p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors. Continually transform fully tested expertise <a href="#">with competitive technologies</a>. Appropriately communicate adaptive imperatives rather than value-added potentialities. Conveniently harness frictionless outsourcing whereas state of the art interfaces. Quickly enable prospective technology rather than open-source technologies.</p><blockquote><p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors. Continually transform fully tested expertise with competitive technologies. Appropriately communicate adaptive imperatives rather than value-added potentialities.</p></blockquote><p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors. Continually transform fully tested expertise <a href="#">with competitive technologies</a>. Appropriately communicate adaptive imperatives rather than value-added potentialities. Conveniently harness frictionless outsourcing whereas state of the art interfaces. Quickly enable prospective technology rather than open-source technologies.</p><h3>Lorem ipsum dolor sit amed consetatur</h3><p>Compellingly <a href="#">recaptiualize enterprise-wide web-readiness</a> for robust strategic theme areas. Synergistically reconceptualize user-centric functionalities via revolutionary strategic theme areas. Progressively transition out-of-the-box leadership skills rather than top-line and <a href="#">this is a hover link</a>.</p><table class="table"><thead><tr><th>Service</th><th>Quantity</th><th>Price</th></tr></thead><tbody><tr><td>Lorem ipsum dolor sit amet</td><td>24 pieces in stock</td><td>$279.00 $189.00</td></tr><tr><td>Praesent luctus fermentum tincidunt</td><td>132 pieces in stock</td><td>$453.00 $379.00</td></tr><tr><td>Morbi venenatis, ligula ut tincidunt</td><td>1231 pieces in stock</td><td>$1193.00 $1089.00</td></tr><tr><td>Duis vitae odio ac ante faucibus faucibus</td><td>978 pieces in stock</td><td>$687.00 $620.00</td></tr></tbody></table>'
+      format: content_format
+      summary: ''
+  field_mt_srv_image:
+    -
+      entity: 2dd56690-b259-4925-b7a2-d3d6340ea142
+      alt: 'Service Image'
+      title: ''
+      width: 1280
+      height: 690
+  field_mt_srv_link:
+    -
+      uri: 'internal:/contact'
+      title: 'Contact Us'
+      options: {  }
+  field_mt_srv_subheader_body:
+    -
+      value: '<p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors with advanced technologies to communicate better.</p>'
+      format: content_format
+      summary: ''
+  field_mt_srv_tags:
+    -
+      entity: 37fc6902-8c41-4ebf-8737-79e151ad0383
+  field_mt_srv_teaser_image:
+    -
+      entity: 4b45ac86-8be0-4867-8cc6-31d8bad47887
+      alt: 'Teaser Image'
+      title: ''
+      width: 1280
+      height: 690

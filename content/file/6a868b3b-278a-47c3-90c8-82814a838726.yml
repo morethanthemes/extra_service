@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6a868b3b-278a-47c3-90c8-82814a838726
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mt-service-2-highlight-4.jpg
+  uri:
+    -
+      value: 'public://custom-blocks/mt-service-2-highlight-4.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 329563
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1755098116

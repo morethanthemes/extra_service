@@ -1,0 +1,259 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 93316313-792d-4975-8ffc-74525ffe93af
+  bundle: mt_service
+  default_langcode: en
+  depends:
+    0e58e1c5-b415-48d3-a032-88544b99b7a3: file
+    43e574e7-e752-41f5-8bdb-c1425d061a6e: file
+    86206d67-0e5d-40aa-83c1-13ca829bea00: file
+    7505abd7-8778-47b1-a53e-86f81996af4e: file
+    b61947d8-c972-42e5-8a24-9fe1870bfdfd: file
+    6a868b3b-278a-47c3-90c8-82814a838726: file
+    ce6761f1-f935-49de-b8e5-9c3597415eaa: taxonomy_term
+    5ee7f71e-0971-44ca-a3b9-128645773b83: taxonomy_term
+    cb8d921d-4939-48b8-91bc-700773c79808: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Second Service'
+  created:
+    -
+      value: 1755097566
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /services/second-service
+      langcode: en
+      pathauto: 0
+  field_mt_srv_banner_image:
+    -
+      entity: 0e58e1c5-b415-48d3-a032-88544b99b7a3
+      alt: 'internal banner'
+      title: ''
+      width: 1920
+      height: 650
+    -
+      entity: 43e574e7-e752-41f5-8bdb-c1425d061a6e
+      alt: 'internal banner'
+      title: ''
+      width: 1920
+      height: 650
+  field_mt_srv_body:
+    -
+      value: '<p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors. Continually transform fully tested expertise <a href="#">with competitive technologies</a>. Appropriately communicate adaptive imperatives rather than value-added potentialities. Conveniently harness frictionless outsourcing whereas state of the art interfaces. Quickly enable prospective technology rather than open-source technologies.</p><blockquote><p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors. Continually transform fully tested expertise with competitive technologies. Appropriately communicate adaptive imperatives rather than value-added potentialities.</p></blockquote><p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors. Continually transform fully tested expertise <a href="#">with competitive technologies</a>. Appropriately communicate adaptive imperatives rather than value-added potentialities. Conveniently harness frictionless outsourcing whereas state of the art interfaces. Quickly enable prospective technology rather than open-source technologies.</p>'
+      format: content_format
+      summary: ''
+  field_mt_srv_highlight:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 55ba7248-e38c-41f7-af60-5118ccfce150
+          bundle: mt_highlight
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755097598
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_highlight_body:
+            -
+              value: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>'
+              format: content_format
+          field_mt_highlight_image:
+            -
+              entity: 86206d67-0e5d-40aa-83c1-13ca829bea00
+              alt: 'highlight image'
+              title: ''
+              width: 1280
+              height: 690
+          field_mt_highlight_image_fit:
+            -
+              value: mt-image-fit-cover
+          field_mt_highlight_link:
+            -
+              uri: 'internal:/node/1'
+              title: 'Learn More'
+              options: {  }
+          field_mt_highlight_title:
+            -
+              value: 'Name of First Feature'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 9622134d-9c13-4e34-8816-a36d40f76243
+          bundle: mt_highlight
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755098050
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_highlight_body:
+            -
+              value: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>'
+              format: content_format
+          field_mt_highlight_image:
+            -
+              entity: 7505abd7-8778-47b1-a53e-86f81996af4e
+              alt: 'highlight image'
+              title: ''
+              width: 1280
+              height: 690
+          field_mt_highlight_image_fit:
+            -
+              value: mt-image-fit-cover
+          field_mt_highlight_link:
+            -
+              uri: 'internal:/node/1'
+              title: 'Learn More'
+              options: {  }
+          field_mt_highlight_title:
+            -
+              value: 'Name of Second Feature'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: b107c9aa-b592-4b59-ae49-07abfabe5d0d
+          bundle: mt_highlight
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755098081
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_highlight_body:
+            -
+              value: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>'
+              format: content_format
+          field_mt_highlight_image:
+            -
+              entity: b61947d8-c972-42e5-8a24-9fe1870bfdfd
+              alt: 'highlight image'
+              title: ''
+              width: 1280
+              height: 690
+          field_mt_highlight_image_fit:
+            -
+              value: mt-image-fit-cover
+          field_mt_highlight_link:
+            -
+              uri: 'internal:/node/1'
+              title: 'Learn More'
+              options: {  }
+          field_mt_highlight_title:
+            -
+              value: 'Name of Third Feature'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 9247e6b6-d0fb-4d9f-ba99-5633612b38dc
+          bundle: mt_highlight
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1755098108
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_highlight_body:
+            -
+              value: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>'
+              format: content_format
+          field_mt_highlight_image:
+            -
+              entity: 6a868b3b-278a-47c3-90c8-82814a838726
+              alt: 'highlight image'
+              title: ''
+              width: 1280
+              height: 690
+          field_mt_highlight_image_fit:
+            -
+              value: mt-image-fit-cover
+          field_mt_highlight_link:
+            -
+              uri: 'internal:/node/1'
+              title: 'Learn More'
+              options: {  }
+          field_mt_highlight_title:
+            -
+              value: 'Name of Fourth Feature'
+  field_mt_srv_link:
+    -
+      uri: 'internal:/contact'
+      title: 'Contact Us'
+      options: {  }
+  field_mt_srv_subheader_body:
+    -
+      value: '<p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors with advanced technologies to communicate better.</p>'
+      format: content_format
+      summary: ''
+  field_mt_srv_tags:
+    -
+      entity: ce6761f1-f935-49de-b8e5-9c3597415eaa
+    -
+      entity: 5ee7f71e-0971-44ca-a3b9-128645773b83
+  field_mt_srv_teaser_image:
+    -
+      entity: cb8d921d-4939-48b8-91bc-700773c79808
+      alt: 'Teaser Image'
+      title: ''
+      width: 1280
+      height: 690

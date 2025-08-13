@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4b45ac86-8be0-4867-8cc6-31d8bad47887
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mt-service-teaser-3.jpg
+  uri:
+    -
+      value: 'public://services/mt-service-teaser-3.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 392835
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1755097347

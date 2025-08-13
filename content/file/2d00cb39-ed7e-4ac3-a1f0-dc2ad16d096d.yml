@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2d00cb39-ed7e-4ac3-a1f0-dc2ad16d096d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: mt-service-1-2.jpg
+  uri:
+    -
+      value: 'public://services/mt-service-1-2.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 324831
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1755098274

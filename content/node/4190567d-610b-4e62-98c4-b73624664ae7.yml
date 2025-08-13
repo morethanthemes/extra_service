@@ -1,0 +1,72 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4190567d-610b-4e62-98c4-b73624664ae7
+  bundle: mt_service
+  default_langcode: en
+  depends:
+    aff29740-47d4-46ed-a286-5cea563f867b: file
+    5ee7f71e-0971-44ca-a3b9-128645773b83: taxonomy_term
+    3a3d048f-2403-4a79-8d0c-b2433e8a9948: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Fifth Service'
+  created:
+    -
+      value: 1755097129
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /services/fifth-service
+      langcode: en
+      pathauto: 0
+  field_mt_srv_body:
+    -
+      value: '<p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors. Continually transform fully tested expertise <a href="#">with competitive technologies</a>. Appropriately communicate adaptive imperatives rather than value-added potentialities. Conveniently harness frictionless outsourcing whereas state of the art interfaces. Quickly enable prospective technology rather than open-source technologies.</p><blockquote><p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors. Continually transform fully tested expertise with competitive technologies. Appropriately communicate adaptive imperatives rather than value-added potentialities.</p></blockquote><p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors. Continually transform fully tested expertise <a href="#">with competitive technologies</a>. Appropriately communicate adaptive imperatives rather than value-added potentialities. Conveniently harness frictionless outsourcing whereas state of the art interfaces. Quickly enable prospective technology rather than open-source technologies.</p>'
+      format: content_format
+      summary: ''
+  field_mt_srv_image:
+    -
+      entity: aff29740-47d4-46ed-a286-5cea563f867b
+      alt: 'Service Image'
+      title: ''
+      width: 1280
+      height: 690
+  field_mt_srv_link:
+    -
+      uri: 'internal:/contact'
+      title: 'Contact Us'
+      options: {  }
+  field_mt_srv_subheader_body:
+    -
+      value: '<p>Phosfluorescently e-enable adaptive synergy for strategic quality vectors with advanced technologies to communicate better.</p>'
+      format: content_format
+      summary: ''
+  field_mt_srv_tags:
+    -
+      entity: 5ee7f71e-0971-44ca-a3b9-128645773b83
+  field_mt_srv_teaser_image:
+    -
+      entity: 3a3d048f-2403-4a79-8d0c-b2433e8a9948
+      alt: 'Teaser Image'
+      title: ''
+      width: 1280
+      height: 690
